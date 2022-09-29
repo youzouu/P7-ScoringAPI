@@ -32,14 +32,4 @@ class Score(Resource):
 
 api.add_resource(Score, "/score/<int:id_curr>/")
 if __name__ == "__main__":
-    app.run(debug = True)
-
-
-
-
-#git add [fichier]   dashboard.py
-#git commit -m 'message'
-#git branch -M main
-#git remote add origin [adresse repo] ici https://github.com/youzouu/P7-Scoring-Dash.git
-#git push -u origin main
-
+    app.run()
