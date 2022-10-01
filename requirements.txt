@@ -1,194 +1,210 @@
-aiohttp @ file:///opt/concourse/worker/volumes/live/b3617caf-3b05-41e0-5120-f62332fd1317/volume/aiohttp_1646806401506/work
-aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
-alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
-altair @ file:///tmp/build/80754af9/altair_1599835197802/work
+aiohttp==3.8.1
+aiosignal==1.2.0
+alabaster==0.7.12
+altair==4.1.0
 anaconda-client==1.11.0
-anaconda-project @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_52iciqycjz/croots/recipe/anaconda-project_1660339902500/work
+anaconda-project==0.11.1
 aniso8601==9.0.1
-anyio @ file:///opt/concourse/worker/volumes/live/eb44598f-565b-45e7-4c50-c1ae70306e18/volume/anyio_1644481722202/work/dist
+anyio==3.5.0
 appdirs==1.4.4
-applaunchservices @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_96v71vcny2/croots/recipe/applaunchservices_1661854626389/work
-appnope @ file:///Users/builder/ci_310/appnope_1642500616005/work
-appscript @ file:///Users/builder/ci_310/appscript_1642500634899/work
-argon2-cffi @ file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work
-argon2-cffi-bindings @ file:///opt/concourse/worker/volumes/live/cf502f86-3f51-4f85-686b-4867f6d672bd/volume/argon2-cffi-bindings_1644569704808/work
-arrow @ file:///opt/conda/conda-bld/arrow_1649166651673/work
-astropy @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_0a17b8e9-1fad-48c5-91fb-b4dded6b289flor4xw5u/croots/recipe/astropy_1657786108950/work
-asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+applaunchservices==0.3.0
+appnope==0.1.2
+appscript==1.1.2
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
+arrow==1.2.2
+astropy==5.1
+asttokens==2.0.5
 astunparse==1.6.3
-async-timeout @ file:///tmp/build/80754af9/async-timeout_1637851218186/work
+async-timeout==4.0.1
 atomicwrites==1.4.0
-attrs @ file:///opt/conda/conda-bld/attrs_1642510447205/work
-Automat @ file:///tmp/build/80754af9/automat_1600298431173/work
-autopep8 @ file:///opt/conda/conda-bld/autopep8_1650463822033/work
-Babel @ file:///tmp/build/80754af9/babel_1620871417480/work
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
-backports.tempfile @ file:///home/linux1/recipes/ci/backports.tempfile_1610991236607/work
+attrs==21.4.0
+Automat==20.2.0
+autopep8==1.6.0
+Babel==2.9.1
+backcall==0.2.0
+backports.functools-lru-cache==1.6.4
+backports.tempfile==1.0
 backports.weakref==1.0.post1
-bcrypt @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b550nfy8c3/croots/recipe/bcrypt_1659554333520/work
-beautifulsoup4 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_croot-cdiouih5/beautifulsoup4_1650462164803/work
-binaryornot @ file:///tmp/build/80754af9/binaryornot_1617751525010/work
-bitarray @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_99410e05-b235-43fd-a31c-8dd2d61509a4vi1pzh3o/croots/recipe/bitarray_1657739652745/work
+bcrypt==3.2.0
+beautifulsoup4==4.11.1
+binaryornot==0.4.4
+bitarray==2.5.1
 bkcharts==0.2
-black @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_d0nhgmyc3l/croots/recipe/black_1660237813406/work
-bleach @ file:///opt/conda/conda-bld/bleach_1641577558959/work
+black==22.6.0
+bleach==4.1.0
 blinker==1.4
-bokeh @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_4689ce87-cfaa-4ded-b2ca-a10b180c8012082opaxd/croots/recipe/bokeh_1658136657265/work
-boto3 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_7466793a-6ce0-4cc8-b633-fb7f60016ad6lnn62tpt/croots/recipe/boto3_1657820107850/work
-botocore @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_05d2e560-e0a7-4311-8a55-e8216b7418d7ho9lnfo9/croots/recipe/botocore_1657739494502/work
-Bottleneck @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_29949159-f86f-474b-bc1f-aaa1e0e222b4ofusifik/croots/recipe/bottleneck_1657175564045/work
+bokeh==2.4.3
+boto3==1.24.28
+botocore==1.27.28
+Bottleneck==1.3.5
 brotlipy==0.7.0
-cachetools @ file:///tmp/build/80754af9/cachetools_1619597386817/work
-certifi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_05nm_gqf36/croots/recipe/certifi_1663615689491/work/certifi
-cffi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_62rp5d8fd4/croots/recipe/cffi_1659598655556/work
-chardet @ file:///Users/builder/ci_310/chardet_1642531418028/work
-charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
-click @ file:///opt/concourse/worker/volumes/live/2d66025a-4d79-47c4-43be-6220928b6c82/volume/click_1646056610594/work
-cloudpickle @ file:///tmp/build/80754af9/cloudpickle_1632508026186/work
+cachetools==4.2.2
+certifi==2022.9.14
+cffi==1.15.1
+chardet==4.0.0
+charset-normalizer==2.0.4
+click==8.0.4
+cloudpickle==2.0.0
 clyent==1.2.2
-colorama @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b8ecd5af-5e60-48b8-80ac-92164ecb9b9bxkf0tkfp/croots/recipe/colorama_1657009097162/work
-colorcet @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_8a83eeb2-7dbf-4e61-829c-ba42fc3fd6f523ifr0ew/croots/recipe/colorcet_1651851028480/work
-commonmark @ file:///Users/ktietz/demo/mc3/conda-bld/commonmark_1630649545323/work
+colorama==0.4.5
+colorcet==3.0.0
+commonmark==0.9.1
 conda==22.9.0
 conda-build==3.21.9
-conda-content-trust @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_0afea0f9-bbf5-446c-8d60-8151cc05b029p0nco1nn/croots/recipe/conda-content-trust_1658126375910/work
-conda-pack @ file:///tmp/build/80754af9/conda-pack_1611163042455/work
-conda-package-handling @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_4aholt4czv/croots/recipe/conda-package-handling_1663598478352/work
+conda-content-trust==0.1.3
+conda-pack==0.6.0
+conda-package-handling==1.9.0
 conda-repo-cli==1.0.20
-cryptography @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b470f7cb-c8f1-42c9-b84f-23789ea77e7c9difcqh4/croots/recipe/cryptography_1652101134392/work
-cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
-debugpy @ file:///Users/builder/ci_310/debugpy_1642501698574/work
-decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
-defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
-entrypoints @ file:///opt/concourse/worker/volumes/live/5eb4850e-dcbc-41ad-5f22-922bac778f70/volume/entrypoints_1649926457041/work
-executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
-fastjsonschema @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b5c1gee32t/croots/recipe/python-fastjsonschema_1661368622875/work
-filelock @ file:///opt/conda/conda-bld/filelock_1647002191454/work
-Flask @ file:///home/ktietz/src/ci/flask_1611932660458/work
+conda-token==0.4.0
+conda-verify==3.4.2
+constantly==15.1.0
+cookiecutter==1.7.3
+cryptography==37.0.1
+cssselect==1.1.0
+cycler==0.11.0
+Cython==0.29.32
+cytoolz==0.11.0
+debugpy==1.5.1
+decorator==5.1.1
+defusedxml==0.7.1
+entrypoints==0.4
+executing==0.8.3
+fastjsonschema==2.16.2
+filelock==3.6.0
+Flask==1.1.2
 Flask-RESTful==0.3.9
 fonttools==4.25.0
-frozenlist @ file:///Users/builder/ci_310/frozenlist_1642502209994/work
-future @ file:///Users/builder/ci_310/future_1642502263251/work
-gitdb @ file:///tmp/build/80754af9/gitdb_1617117951232/work
-GitPython @ file:///tmp/build/80754af9/gitpython_1624609474443/work
-glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
-idna @ file:///tmp/build/80754af9/idna_1637925883363/work
-importlib-metadata @ file:///opt/concourse/worker/volumes/live/a8740f82-0523-4b08-5bb5-afa0c929f5e0/volume/importlib-metadata_1648562424930/work
-ipykernel @ file:///opt/concourse/worker/volumes/live/b899b150-2bf0-46bf-5730-9e8a3e9ee440/volume/ipykernel_1647000787125/work/dist/ipykernel-6.9.1-py3-none-any.whl
-ipython @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_651b0309-eccd-4278-bb05-da83352f345cw81ya025/croots/recipe/ipython_1657652219297/work
-ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
-ipywidgets @ file:///tmp/build/80754af9/ipywidgets_1634143127070/work
-itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
-jedi @ file:///opt/concourse/worker/volumes/live/18b71546-5bde-4add-72d1-7d16b76f0f7a/volume/jedi_1644315243726/work
-Jinja2 @ file:///tmp/build/80754af9/jinja2_1612213139570/work
-jmespath @ file:///Users/ktietz/demo/mc3/conda-bld/jmespath_1630583964805/work
-joblib @ file:///tmp/build/80754af9/joblib_1635411271373/work
-jsonschema @ file:///opt/concourse/worker/volumes/live/6fbb9c38-fac1-4d90-7fd5-41153c174d3e/volume/jsonschema_1650025615201/work
-jupyter-core @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_8ba802e0-15f6-4a45-a9ee-144034526783uwxtvvew/croots/recipe/jupyter_core_1651671235924/work
-jupyter_client @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_41tzpfqkok/croots/recipe/jupyter_client_1661848920196/work
-jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
-jupyterlab-widgets @ file:///tmp/build/80754af9/jupyterlab_widgets_1609884341231/work
-kiwisolver @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_ca2945cc-8f2f-407b-8e24-f05d29ee2f4fvto5sdlk/croots/recipe/kiwisolver_1653292053344/work
-libarchive-c @ file:///tmp/build/80754af9/python-libarchive-c_1617780486945/work
+frozenlist==1.2.0
+future==0.18.2
+gitdb==4.0.7
+GitPython==3.1.18
+glob2==0.7
+idna==3.3
+importlib-metadata==4.11.3
+ipykernel==6.9.1
+ipython==8.4.0
+ipython-genutils==0.2.0
+ipywidgets==7.6.5
+itsdangerous==2.0.1
+jedi==0.18.1
+Jinja2==2.11.3
+jinja2-time==0.2.0
+jmespath==0.10.0
+joblib==1.1.0
+jsonschema==4.4.0
+jupyter_client==7.3.4
+jupyter-core==4.10.0
+jupyterlab-pygments==0.1.2
+jupyterlab-widgets==1.0.0
+kiwisolver==1.4.2
+libarchive-c==2.9
 llvmlite==0.38.0
-MarkupSafe @ file:///Users/builder/ci_310/markupsafe_1642534112998/work
-matplotlib @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_757ijfo2tl/croots/recipe/matplotlib-suite_1660167932741/work
-matplotlib-inline @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_9ddl71oqte/croots/recipe/matplotlib-inline_1662014471815/work
-mistune @ file:///Users/builder/ci_310/mistune_1642534169737/work
+MarkupSafe==2.0.1
+matplotlib==3.5.2
+matplotlib-inline==0.1.6
+mistune==0.8.4
 mkl-fft==1.3.1
-mkl-random @ file:///opt/concourse/worker/volumes/live/a9eca864-069c-4240-73c8-4e51b036a10d/volume/mkl_random_1639994047876/work
+mkl-random==1.2.2
 mkl-service==2.4.0
-multidict @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_97dwuacsmf/croots/recipe/multidict_1662369342784/work
+multidict==5.2.0
 munkres==1.1.4
 mypy-extensions==0.4.3
-nbclient @ file:///opt/concourse/worker/volumes/live/7d38d6af-a5d4-4a2f-68ef-fc787e52a70c/volume/nbclient_1650308404062/work
-nbconvert @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_croot-mv2swkk7/nbconvert_1649751922903/work
-nbformat @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_cdvzwfxs_z/croots/recipe/nbformat_1663744956173/work
-nest-asyncio @ file:///opt/concourse/worker/volumes/live/4c28d7d6-d544-4f26-7811-eac0cb2a490e/volume/nest-asyncio_1649847935212/work
-notebook @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_98mevid06x/croots/recipe/notebook_1659083668559/work
-numba @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_croot-p56zvl1f/numba_1648040520212/work
-numexpr @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_f4cadb13-5662-4009-98e5-0105539d6a65fifix2d5/croots/recipe/numexpr_1656940304949/work
-numpy @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_10c245a1-1c81-453c-8b70-3e944787a8d9mo1xhesu/croots/recipe/numpy_and_numpy_base_1653915529188/work
-packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
+nbclient==0.5.13
+nbconvert==6.4.4
+nbformat==5.5.0
+nest-asyncio==1.5.5
+notebook==6.4.12
+numba==0.55.1
+numexpr==2.8.3
+numpy==1.21.5
+packaging==21.3
 pandas==1.4.3
-pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
-param @ file:///tmp/build/80754af9/param_1636647414893/work
-parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
-pathlib @ file:///Users/ktietz/demo/mc3/conda-bld/pathlib_1629713961906/work
-pathspec @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_e2t1r2kdq7/croots/recipe/pathspec_1659627124303/work
-pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
-pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+pandocfilters==1.5.0
+param==1.12.0
+parso==0.8.3
+pathlib==1.0.1
+pathspec==0.9.0
+pexpect==4.8.0
+pickleshare==0.7.5
 Pillow==9.2.0
-pkginfo @ file:///tmp/build/80754af9/pkginfo_1643162084911/work
-platformdirs @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_7fs8_2xgrm/croots/recipe/platformdirs_1662711383474/work
-plotly @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b7601a7c-071f-4424-ad46-f00f32c1766ccwgx0ywh/croots/recipe/plotly_1658160061089/work
+pip==22.1.2
+pkginfo==1.8.2
+platformdirs==2.5.2
+plotly==5.9.0
+poyo==0.5.0
 prettytable==3.4.1
-prometheus-client @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_19kjbndib7/croots/recipe/prometheus_client_1659455105394/work
-prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
+prometheus-client==0.14.1
+prompt-toolkit==3.0.20
 protobuf==3.20.1
-psutil @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_c9b604bf-685f-47f6-8304-238e4e70557e1o7mmsot/croots/recipe/psutil_1656431274701/work
-ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
-pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
+psutil==5.9.0
+ptyprocess==0.7.0
+pure-eval==0.2.2
 pyarrow==8.0.0
-pycodestyle @ file:///tmp/build/80754af9/pycodestyle_1636635402688/work
+pycodestyle==2.8.0
 pycosat==0.6.3
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
-pyct @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_615564ea-cf79-46b0-83e7-0a37ab5db74a2ay4a5f0/croots/recipe/pyct_1658500312593/work
-pydeck @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_4a84757e-f32c-49f9-81fa-1d97412b10e5thsxyo5d/croots/recipe/pydeck_1657894568410/work
+pycparser==2.21
+pyct==0.4.8
+pydeck==0.7.1
 pyecharts==1.9.1
-pyerfa @ file:///Users/builder/ci_310/pyerfa_1642535752787/work
-Pygments @ file:///opt/conda/conda-bld/pygments_1644249106324/work
-Pympler @ file:///tmp/build/80754af9/pympler_1602785470644/work
-pyobjc-core @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_e7giy3a869/croots/recipe/pyobjc-core_1661848172499/work
-pyobjc-framework-Cocoa @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_4c2umern3y/croots/recipe/pyobjc-framework-cocoa_1661850714385/work
-pyobjc-framework-CoreServices @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_4717m_ngol/croots/recipe/pyobjc-framework-coreservices_1661853392396/work
-pyobjc-framework-FSEvents @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_5atkr691rb/croots/recipe/pyobjc-framework-fsevents_1661852390555/work
-pyOpenSSL @ file:///opt/conda/conda-bld/pyopenssl_1643788558760/work
-pyparsing @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3a17y2delq/croots/recipe/pyparsing_1661452538853/work
-pyrsistent @ file:///Users/builder/ci_310/pyrsistent_1642541562041/work
-PySocks @ file:///Users/builder/ci_310/pysocks_1642536366386/work
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-pytz @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_1caf090c-01b6-4973-adac-d2eb884a674e7zonb9eb/croots/recipe/pytz_1654762641285/work
+pyerfa==2.0.0
+Pygments==2.11.2
+Pympler==0.9
+pyobjc-core==8.5
+pyobjc-framework-Cocoa==8.5
+pyobjc-framework-CoreServices==8.5
+pyobjc-framework-FSEvents==8.5
+pyOpenSSL==22.0.0
+pyparsing==3.0.9
+pyrsistent==0.18.0
+PySocks==1.7.1
+python-dateutil==2.8.2
+python-slugify==5.0.2
+pytz==2022.1
 PyYAML==6.0
-pyzmq @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_15f7a459-ad98-422b-b8da-cbf1f626e2115nt0ocwy/croots/recipe/pyzmq_1657724193704/work
+pyzmq==23.2.0
 regex==2022.8.17
-requests @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_516b78ce-034d-4395-b9b5-1d78c2847384qtnol99l/croots/recipe/requests_1657734628886/work
-rich @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_ecp9mc0uny/croots/recipe/rich_1659708283039/work
-ruamel-yaml-conda @ file:///Users/builder/ci_310/ruamel_yaml_1642537156360/work
-s3transfer @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_07692347-3b2f-44eb-9a12-5e0d23d67c1b9oqlb6o4/croots/recipe/s3transfer_1654524216219/work
-scikit-learn @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_1baff183-d525-4b50-b7da-d81be42a33b724ic9ktb/croots/recipe/scikit-learn_1658419416041/work
-scipy @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_595zrwl1it/croots/recipe/scipy_1661390418356/work
-seaborn @ file:///tmp/build/80754af9/seaborn_1629307859561/work
-semver @ file:///tmp/build/80754af9/semver_1603822362442/work
-Send2Trash @ file:///tmp/build/80754af9/send2trash_1632406701022/work
-shap @ file:///Users/builder/ci_310/shap_1642545779024/work
+requests==2.28.1
+rich==12.5.1
+ruamel-yaml-conda==0.15.100
+s3transfer==0.6.0
+scikit-learn==1.1.1
+scipy==1.7.3
+seaborn==0.11.2
+semver==2.13.0
+Send2Trash==1.8.0
+setuptools==63.4.1
+shap==0.39.0
 simplejson==3.17.6
-six @ file:///tmp/build/80754af9/six_1644875935023/work
-slicer @ file:///tmp/build/80754af9/slicer_1633422823758/work
-smmap @ file:///tmp/build/80754af9/smmap_1611694433573/work
-sniffio @ file:///Users/builder/ci_310/sniffio_1642537651147/work
-soupsieve @ file:///tmp/build/80754af9/soupsieve_1636706018808/work
-stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
-streamlit @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_772487d1-bfbf-4b89-a425-e2900b940b1flihd3sr0/croots/recipe/streamlit_1657914744543/work
+six==1.16.0
+slicer==0.0.7
+smmap==4.0.0
+sniffio==1.2.0
+soupsieve==2.3.1
+stack-data==0.2.0
+streamlit==1.11.0
 streamlit-echarts==0.4.0
-tenacity @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_15d3bbab-3059-4048-adcb-986fb2669dd5nujdx5qd/croots/recipe/tenacity_1657899116644/work
-terminado @ file:///opt/concourse/worker/volumes/live/39e67ebd-6a8b-4c2d-7210-1e480152befe/volume/terminado_1644322598674/work
-testpath @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_aaf4aec7-dbb6-43d6-9707-824338b4efc82yrt6xjp/croots/recipe/testpath_1655908558843/work
-threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
-toml @ file:///tmp/build/80754af9/toml_1616166611790/work
-tomli @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_90762ba4-f339-47e8-bd29-416854a59b233d27hku_/croots/recipe/tomli_1657175507767/work
-toolz @ file:///tmp/build/80754af9/toolz_1636545406491/work
-tornado @ file:///Users/builder/ci_310/tornado_1642538510757/work
-tqdm @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_6cb3db64-b7e1-4db2-ab0b-f944920e5367lekntvc5/croots/recipe/tqdm_1650891088614/work
-traitlets @ file:///tmp/build/80754af9/traitlets_1636710298902/work
-typing_extensions @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_ff5_5nqr6l/croots/recipe/typing_extensions_1659638832447/work
-tzlocal @ file:///Users/builder/ci_310/tzlocal_1642513545401/work
-urllib3 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_53dwuk2xkk/croots/recipe/urllib3_1659110467968/work
-validators @ file:///tmp/build/80754af9/validators_1612286467315/work
+tenacity==8.0.1
+terminado==0.13.1
+testpath==0.6.0
+text-unidecode==1.3
+threadpoolctl==2.2.0
+toml==0.10.2
+tomli==2.0.1
+toolz==0.11.2
+tornado==6.1
+tqdm==4.64.0
+traitlets==5.1.1
+typing_extensions==4.3.0
+tzlocal==2.1
+Unidecode==1.2.0
+urllib3==1.26.11
+validators==0.18.2
 vega-datasets==0.9.0
-wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+wcwidth==0.2.5
 webencodings==0.5.1
-Werkzeug @ file:///opt/conda/conda-bld/werkzeug_1645628268370/work
-widgetsnbextension @ file:///opt/concourse/worker/volumes/live/175ee5c5-481f-469a-5bad-6f1ca1bb7391/volume/widgetsnbextension_1645009367053/work
-yarl @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_d8a27nidjc/croots/recipe/yarl_1661437080982/work
-zipp @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b279673d-f037-44c7-8773-c5a6b6f51037d3wfr9cq/croots/recipe/zipp_1652341773612/work
+Werkzeug==2.0.3
+wheel==0.37.1
+widgetsnbextension==3.5.2
+yarl==1.8.1
+zipp==3.8.0
