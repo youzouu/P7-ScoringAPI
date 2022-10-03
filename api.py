@@ -1,8 +1,6 @@
 from flask import Flask, jsonify, request
 import pandas as pd
 import pickle as pc
-import numpy as np
-import shap
 from flask_restful import Api, Resource
 
 
