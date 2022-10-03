@@ -53,7 +53,6 @@ commonmark==0.9.1
 conda
 conda-build
 conda-pack==0.6.0
-conda-package-handling
 conda-repo-cli==1.0.20
 conda-token==0.4.0
 conda-verify==3.4.2
