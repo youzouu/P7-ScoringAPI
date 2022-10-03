@@ -232,10 +232,6 @@ Pygments==2.11.2
 PyHamcrest==2.0.2
 PyJWT==2.4.0
 Pympler==0.9
-pyobjc-core==8.5
-pyobjc-framework-Cocoa==8.5
-pyobjc-framework-CoreServices==8.5
-pyobjc-framework-FSEvents==8.5
 pyodbc==4.0.34
 pyOpenSSL==22.0.0
 pyparsing==3.0.9
