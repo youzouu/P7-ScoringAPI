@@ -1,1 +1,1 @@
-web: gunicorn api:younes-scoring-api
+web: gunicorn api:app
