@@ -11,9 +11,9 @@ app = Flask(__name__)
 api = Api(app)
 
 #import the model and the file
-df_api = pd.read_csv('../model/df_api.csv')
+df_api = pd.read_csv('df_api.csv')
 
-model_pip = pc.load(open('../model/model_pip.pkl', 'rb'))
+model_pip = pc.load(open('model_pip.pkl', 'rb'))
 
 
 class Score(Resource):
